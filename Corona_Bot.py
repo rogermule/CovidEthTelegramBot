@@ -7,7 +7,7 @@ from Database import Database
 '''
 
 '''
-updater = Updater(token="957907454:AAFOLzSfu2j13YsxXrYZDxiBLYnHoeJZXXQ")
+updater = Updater(token="1105786287:AAEse9mWu9fNeKAoSernjVZK98v01pRjiT0")
 dispatcher = updater.dispatcher
 
 URL = "https://3def29a7.ngrok.io/api/"
