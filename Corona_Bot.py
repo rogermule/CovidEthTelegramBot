@@ -74,9 +74,6 @@ def handle_menu(bot, update):
         menu_result = act_req['result']
         for i in menu_result:
             update.message.reply_text(i['text'])
-            contents = requests.get('https://random.dog/woof.json').json()
-            url = contents['url']
-            bot.send_photo(chat_id=user_id, photo=url)
             bot.send_photo(chat_id=user_id, photo=i['image_url'])
 
 
